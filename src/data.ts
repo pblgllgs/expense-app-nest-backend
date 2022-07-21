@@ -20,7 +20,7 @@ export const data: Data = {
     {
       id: '78d0072a-ba16-4457-906b-c622b40acce3',
       source: '1',
-      amount: 1,
+      amount: 100,
       created_at: new Date(),
       updated_at: new Date(),
       type: ReportType.INCOME,
@@ -28,7 +28,7 @@ export const data: Data = {
     {
       id: '8e131aac-0da0-48b6-90d1-ce368f6bb4e4',
       source: '2',
-      amount: 2,
+      amount: 50,
       created_at: new Date(),
       updated_at: new Date(),
       type: ReportType.EXPENSE,
