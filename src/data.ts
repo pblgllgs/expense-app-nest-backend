@@ -8,8 +8,8 @@ export interface Data {
     id: string;
     source: string;
     amount: number;
-    createAt: Date;
-    updatedAt: Date;
+    created_at: Date;
+    updated_at: Date;
     type: ReportType;
   }[];
 }
@@ -18,29 +18,20 @@ export interface Data {
 export const data: Data = {
   report: [
     {
-      id: '1',
+      id: '78d0072a-ba16-4457-906b-c622b40acce3',
       source: '1',
       amount: 1,
-      createAt: new Date(),
-      updatedAt: new Date(),
+      created_at: new Date(),
+      updated_at: new Date(),
       type: ReportType.INCOME,
     },
     {
-      id: '2',
+      id: '8e131aac-0da0-48b6-90d1-ce368f6bb4e4',
       source: '2',
       amount: 2,
-      createAt: new Date(),
-      updatedAt: new Date(),
+      created_at: new Date(),
+      updated_at: new Date(),
       type: ReportType.EXPENSE,
     },
   ],
 };
-
-// data.report.push({
-//   id: '1',
-//   source: 'income',
-//   amount: 100,
-//   createAt: new Date(),
-//   updatedAt: new Date(),
-//   type: ReportType.INCOME,
-// });
